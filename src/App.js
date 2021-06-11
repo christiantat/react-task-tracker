@@ -8,7 +8,7 @@ import About from './components/About'
 
 
 function App() {
-  const [showAddTask, setShowAddTask] = useState (false)
+  const [showAddTask, setShowAddTask] = useState (true)
   const [tasks, setTasks] = useState([])
 
   useEffect (() => {
