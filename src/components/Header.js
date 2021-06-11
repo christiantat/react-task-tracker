@@ -20,7 +20,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 }
 
 Header.defaultProps = {
-    title: 'Test Event',
+    title: 'Database',
 }
 
 Header.propTypes = {
